@@ -1,0 +1,28 @@
+#product_cont{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+   
+}
+
+.product_div  {
+    margin: auto;
+    border: 2px solid white;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.product_div >img {
+    width: 100%;
+    height: 70%;
+}
+.product_div  button {
+    background-color: aliceblue;
+    font-size: large;
+    color: black;
+    padding: 0.5rem;
+}

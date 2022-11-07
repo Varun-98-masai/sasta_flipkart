@@ -1,0 +1,30 @@
+* , html , div , body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: white 1px solid;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+#nav div {
+    list-style:none;
+    display: flex;
+}
+#nav div li{
+    margin-right: 2rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}

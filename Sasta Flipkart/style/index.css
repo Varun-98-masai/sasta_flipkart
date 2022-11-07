@@ -1,0 +1,47 @@
+.navbar_div{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.input_div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+input{
+    height: 2rem;
+    background-color: grey;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 1rem;
+    width: 250px;
+    font-size: 20px;
+}
+button{
+    height: 2.2rem;
+    background-color: teal;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.allTodo_div > div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+
+}
+.allTodo_div > div h3{
+    margin-right: 1rem;
+}
+.allTodo_div > div button{
+    margin-right: 1rem;
+    /* background-color: red; */
+}

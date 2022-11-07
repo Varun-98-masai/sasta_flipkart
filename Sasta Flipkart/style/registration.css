@@ -1,0 +1,23 @@
+#registration_form{
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#registration_form > div{
+   display: flex;
+   flex-direction: column;
+}
+
+input{
+    height: 2rem;
+    border: none;
+    background-color: grey;
+    border-radius: 7px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+#submit_button{
+    background-color: teal;
+    margin-top: 1rem;
+}
